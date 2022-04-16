@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-image: url(/picture/bg-log-sign.jpg);
+    
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+
+section .noi-dung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 6px;
+    background: rgba(240,240,240,0.8);
+}
+
+section .noi-dung .form{
+    width: 50%;
+}
+
+
+section .noi-dung .form h2{
+    color: black;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #16a085;
+    display: inline-block;
+    letter-spacing: 1px;
+    
+}
+
+section .noi-dung .form .input-form{
+    margin-bottom: 20px;
+}
+
+
+section .noi-dung .form .input-form span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: black;
+    letter-spacing: 1px;
+    
+}
+
+section .noi-dung .form .input-form input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    background: transparent;
+    border-radius: 30px;
+    
+}
+section .noi-dung .form .input-form input[type="submit"]{
+    background: #1abc9c;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(240,240,240,0.12), 
+              0 2px 2px rgba(240,240,240,0.12), 
+              0 4px 4px rgba(240,240,240,0.12), 
+              0 8px 8px rgba(240,240,240,0.12),
+              0 16px 16px rgba(240,240,240,0.12);
+}
+
+section .noi-dung .form .input-form input[type="submit"]:hover{
+    background: black;
+}
+section .noi-dung .form .nho-dang-nhap{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+section .noi-dung .form .input-form p{
+    color: gray;
+}
+
+section .noi-dung .form .input-form p a{
+    color: palevioletred;
+}
+
+
+
+@media (max-width: 768px){
+
+    section .noi-dung{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    section .noi-dung .form{
+        width: 100%;
+        padding: 40px;
+        background: rgba(255 255 255 / 0.9);
+        margin: 50px;
+    }
+    section .noi-dung .form h3{
+        color: #607d8b;
+        text-align: center;
+        margin: 30px 0 10px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
