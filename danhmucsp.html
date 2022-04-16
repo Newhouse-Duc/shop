@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <title>Danh mục sản phẩm</title>
+    <link rel="stylesheet" href="/css/listproduct.css">
+
+</head>
+<body>
+    <!---header-->
+    <header>
+
+        <nav>
+            <img id="logo" src="/picture/logopet.png.PNG" alt=""  height="100px">
+            <div class="menu">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li class="select-list">
+                        <a href="danhmucsp.html">  Sản phẩm</a>
+                        <ul class="select">
+                            <li>
+                                <a href="#"> Chó cảnh</a>
+                            </li>
+                            <li>
+                                <a href="#"> Mèo cảnh</a>
+                            </li>
+                            <li>
+                                <a href="#"> Phụ kiện</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <form action="">
+                        <input id="text" type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i> search</button>
+                        <button type="submit" id="bag">
+                            <a href="cart.html"> Giỏ hàng</a>
+                        </button>
+                    </form>
+                    
+                    <div class="user-header">
+                        <div class="block-right">
+                             <a href="sign.html" >Đăng kí</a>
+                            <a href="login.html" >Đăng nhập </a>
+                        </div>
+                    </div>  
+                </ul>
+            </div>
+        </nav>
+    </header>
+<!---setion-->
+
+<div class="banner">
+    <img src="/picture/banner.jpg" alt="">
+</div>
+<div class="content">
+<section class="cartegory">
+    <div class="container">
+        <div class="top-row">
+            <p>Sản Phẩm</p> 
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="left">
+                <ul>
+                    <li class="list-left"> <a href="#">Chó</a>
+                        <ul>
+                            <li><a href="danhmucsp2.html">Chó Husky</a></li>
+                            <li><a href="">Chó shiba</a></li>
+                            <li><a href="">Chó Pug</a></li>
+                            <li><a href="">Chó chihuahua</a></li>
+                            <li><a href="">Chó Poodle</a></li>
+                            <li><a href="">Chó Beagle</a></li>
+                        </ul>
+                    </li>
+                    <li class="list-left"><a href="#"> Mèo</a>
+                        <ul>
+                            <li><a href="">Mèo xiêm</a></li>
+                            <li><a href="">Mèo Anh lông dài</a></li>
+                            <li><a href="">Mèo ba tư</a></li>
+                            <li><a href="">Mèo tai cụp Scottish Fold</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="list-left"><a href="">Thức ăn pet</a></li>
+                    <li class="list-left"><a href="">Phụ kiện pet</a></li>
+                </ul>
+            </div>
+        </div>
+<script>
+    var itemsliderbar = document.querySelectorAll(".list-left")
+itemsliderbar.forEach(function(menu,index){
+    menu.addEventListener("click",function(){
+        menu.classList.toggle("list-left-block")
+    })
+})
+</script>
+    </div>
+
+</section>
+<section class="product-gallery-one">
+    <div class="container">
+        <div class="product-gallery-one-content">           
+        <div class="product-gallery-one-content-product">
+            <div class="product-gallery-one-content-product-item">
+                <img src="/picture/list_1.PNG" alt="">
+                <div class="product-gallery-one-content-product-item-text">
+                    <li>Chó Pug</li>
+                    <li><a href="">Xem chi tiết</a></li>
+                </div>     
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="/picture/list_2.PNG" alt="">
+                <div class="product-gallery-one-content-product-item-text">
+                    <li>Mèo Xiêm</li>
+                    <li><a href="">Xem chi tiết</a></li>
+                </div>     
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="/picture/list_3.PNG" alt="">
+                <div class="product-gallery-one-content-product-item-text">
+                    <li>Chó Shiba</li>
+                    <li><a href="">Xem chi tiết</a></li>
+                </div>     
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="/picture/list_4.PNG" alt="">
+                <div class="product-gallery-one-content-product-item-text">
+                    <li>Mèo Anh lông dài</li>
+                    <li><a href="">Xem chi tiết</a></li>
+                </div>     
+            </div>
+            <div class="product-gallery-one-content-product-item">
+                <img src="/picture/list_5.PNG" alt="">
+                <div class="product-gallery-one-content-product-item-text">
+                    <li>Chó Beagle</li>
+                    <li><a href="">Xem chi tiết</a></li>
+                </div>     
+            </div>
+
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_6.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Mèo ba tư</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_7.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Chó Poodle</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_8.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Khay đựng thức ăn </li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_9.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Chuồng pet</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_10.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Đệm nằm cho pet</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_11.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Vòng cổ-Dây dắt</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_12.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Dọ mõm</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_13.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Dụng cụ vệ sinh lông</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_14.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Quần áo cho pet</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_15.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Đồ chơi hình đùi gà</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/picture/list_16.PNG" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li>Đồ chơi cào móng cho mèo</li>
+                        <li><a href="">Xem chi tiết</a></li>
+                    </div>     
+                </div>
+                </div>
+        </div>
+    </div>
+    
+</section>
+</div>
+<footer>
+    <div class="container">
+                
+     <div class="fot-left">
+        <h2>Về Chúng Tôi</h2>
+        <p>Luôn hết mình  vì khách hàng <br>
+            đem lại những mặt hàng tốt nhất đến cho bạn <br>
+            Shop pet là sự lựa chọn hàng đầu của ban !!
+        </p>
+        <ul class="social-icon">
+            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="fot-center">
+        <h2>Đường Dẫn</h2>
+        <ul>
+            <li><a href="#">Trang Chủ</a></li>
+            <li><a href="#">Về Chúng Tôi</a></li>
+            <li><a href="#">Thông Tin Liên Lạc</a></li>
+            <li><a href="#">Dịch Vụ</a></li>
+            <li><a href="#">Điều Kiện Chính Sách</a></li>
+        </ul>
+    </div>
+
+    <div class="fot-right">
+        <h2>Thông Tin Liên Hệ</h2>
+        <ul class="info">
+            <li>
+                <span><i class="fa fa-map-marker"></i></span>
+                <span>Số 28<br />
+                    Quận Hai Bà Trưng, Thành Phố Hà Nội<br />
+                    Việt Nam</span>
+            </li>
+            <li>
+                <span><i class="fa fa-phone"></i></span>
+                <p><a href="#">+84 123 456 789</a>
+                    <br />
+                    <a href="#">+84 987 654 321</a></p>
+            </li>
+            <li>
+                <span><i class="fa fa-envelope"></i></span>
+                
+           </li>
+
+        </ul>
+    </div>
+  
+</div>
+    
+</footer>
+</body>
+</html>

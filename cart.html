@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="/css/cart.css">
+</head>
+
+<body>
+    <!---header-->
+    <header>
+
+        <nav>
+            <img id="logo" src="/picture/logopet.png.PNG" alt=""  height="100px">
+            <div class="menu">
+                <ul>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li class="select-list">
+                        <a href="danhmucsp.html">  Sản phẩm</a>
+                        <ul class="select">
+                            <li>
+                                <a href="#"> Chó cảnh</a>
+                            </li>
+                            <li>
+                                <a href="#"> Mèo cảnh</a>
+                            </li>
+                            <li>
+                                <a href="#"> Phụ kiện</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <form action="">
+                        <input id="text" type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i> search</button>
+                        <button type="submit" id="bag">
+                            <a href="cart.html"> Giỏ hàng</a>
+                        </button>
+                    </form>
+                    
+                    <div class="user-header">
+                        <div class="block-right">
+                             <a href="sign.html" >Đăng kí</a>
+                            <a href="login.html" >Đăng nhập </a>
+                        </div>
+                    </div>  
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!---section-->
+  <div class="banner">
+      <img src="/picture/banner.jpg" alt="">
+  </div>
+<section>
+<div class="CartContainer">
+  <div class="Header">
+      <h3 class="Heading">Giỏ hàng</h3>
+      <h5 class="Action">Xóa hết</h5>
+  </div>
+
+  <div class="Cart-Items">
+        <div class="image-box">
+            <img src="/picture/cat5.jpg" style="height: 250px; width: 250px;" >
+        </div>
+        <div class="about">
+            <h1 class="title">Mèo ai cập</h1>
+            
+            
+        </div>
+        <div class="counter">
+            <div class="btn">+</div>
+            <div class="count">2</div>
+            <div class="btn">-</div>
+        </div>
+        <div class="prices">
+            <div class="amount">25.205.300đ</div>
+            <div class="save"><u>lưu lại</u></div>
+            <div class="remove"><u>Xóa bỏ</u></div>
+        </div>
+  </div>
+
+  <div class="Cart-Items pad">
+        <div class="image-box">
+            <img src="/picture/cho3.jpg" style="height: 250px; width: 250px;" >
+        </div>
+        <div class="about">
+            <h1 class="title">Chó Shiba</h1>
+
+        </div>
+        <div class="counter">
+            <div class="btn">+</div>
+            <div class="count">1</div>
+            <div class="btn">-</div>
+        </div>
+        <div class="prices">
+            <div class="amount"> 11.265.478đ</div>
+            <div class="save"><u>Lưu lại</u></div>
+            <div class="remove"><u>Xóa bỏ</u></div>
+        </div>
+  </div>
+<hr> 
+<div class="checkout">
+<div class="total">
+    <div>
+        <div class="Subtotal">Tổng thanh toán</div>
+        <div class="items">số lượng 3</div>
+    </div>
+    <div class="total-amount">36.470.778</div>
+</div>
+<button class="button">Thanh toán</button></div>
+</div>
+
+
+</section>
+<!---footer-->
+<footer>
+  <div class="container">
+              
+   <div class="fot-left">
+      <h2>Về Chúng Tôi</h2>
+      <p>Lorem ipsumdolor sit...</p>
+      <ul class="social-icon">
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-youtube"></i></a></li>
+      </ul>
+  </div>
+
+  <div class="fot-center">
+      <h2>Đường Dẫn</h2>
+      <ul>
+          <li><a href="#">Trang Chủ</a></li>
+          <li><a href="#">Về Chúng Tôi</a></li>
+          <li><a href="#">Thông Tin Liên Lạc</a></li>
+          <li><a href="#">Dịch Vụ</a></li>
+          <li><a href="#">Điều Kiện Chính Sách</a></li>
+      </ul>
+  </div>
+
+  <div class="fot-right">
+      <h2>Thông Tin Liên Hệ</h2>
+      <ul class="info">
+          <li>
+              <span><i class="fa fa-map-marker"></i></span>
+              <span>Đường Số 28<br />
+                  Quận Hai Bà Trưng, Thành Phố Hà Nội<br />
+                  Việt Nam</span>
+          </li>
+          <li>
+              <span><i class="fa fa-phone"></i></span>
+              <p><a href="#">+84 123 456 789</a>
+                  <br />
+                  <a href="#">+84 987 654 321</a></p>
+          </li>
+          <li>
+              <span><i class="fa fa-envelope"></i></span>
+              
+         </li>
+
+      </ul>
+  </div>
+
+</div>
+  
+</footer>
+
+</body>
+</html>
